@@ -1,0 +1,33 @@
+importation de la Bibliothèque Random :
+
+Utilisation de random.randint(1, 100) pour générer un nombre mystère entre 1 et 100.
+Définition de la Fonction mode_groupe :
+
+La fonction prend en paramètres une liste de pseudos des joueurs, un niveau de difficulté, et un nombre de vies.
+Initialisation :
+
+Génération du nombre mystère.
+Initialisation des vies et des scores pour chaque joueur.
+Création d'un historique des tentatives pour chaque joueur.
+Boucle Principale du Jeu :
+
+Alternance des tours entre les joueurs.
+Affichage des vies restantes et de l'historique des tentatives pour le joueur actuel.
+Demande de proposition au joueur et validation de l'entrée.
+Comparaison de la proposition avec le nombre mystère et affichage des messages correspondants.
+Décrémentation des vies du joueur en cas de proposition incorrecte.
+Retrait du joueur de la liste s'il épuise toutes ses vies.
+Gestion des Erreurs :
+
+Utilisation d'un bloc try-except pour gérer les erreurs de saisie (entrées non numériques).
+Fin de Partie :
+
+La partie se termine lorsque le nombre mystère est trouvé ou que tous les joueurs ont épuisé leurs vies.
+Affichage des scores finaux de chaque joueur.
+
+Fonctionnalités Clés
+Alternance des Tours : Les joueurs jouent à tour de rôle jusqu'à ce que le nombre mystère soit trouvé ou que tous les joueurs aient épuisé leurs vies.
+Gestion des Vies : Chaque joueur dispose d'un nombre de vies déterminé par le niveau de difficulté choisi.
+Historique des Tentatives : Les propositions de chaque joueur sont enregistrées et affichées à chaque tour.
+Messages de Motivation : Des messages personnalisés encouragent les joueurs tout au long de la partie.
+Affichage des Scores : Les scores des joueurs sont affichés à la fin de la partie.

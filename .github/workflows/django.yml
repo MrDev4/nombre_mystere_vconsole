@@ -1,0 +1,9 @@
+# Membre 1 : Menu principal
+def afficher_menu_principal():
+    print("\n=== JEU DU NOMBRE MYSTÈRE ===")
+    print("1. Jouer seul")
+    print("2. Jouer en groupe")
+    print("3. Présentation du jeu")
+    print("4. Fermer l'application")
+    choix = input("Choisissez une option (1-4) : ")
+    return choix
